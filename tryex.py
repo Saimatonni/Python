@@ -1,0 +1,12 @@
+istr='erd'
+try:
+    bstr=int(istr)
+except:
+    bstr=-1
+print('first',bstr)
+istr='123'
+try:
+    bstr=int(istr)
+except:
+    bstr=-1
+print('second',bstr)
